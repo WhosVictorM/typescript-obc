@@ -1,0 +1,24 @@
+* mkdir nome-do-projeto && cd nome-do-projeto *
+
+* npm init -y *
+
+* npm install -D typescript*
+
+* mkdir src && touch src/index.ts *
+
+* criar tsconfig.json *
+
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "outDir": "dist"
+    }
+}
+
+* configurar scripts em package.json *
+
+"tsc-watch": "tsc --watch",
+
+* linkar html com "./dist/index.js" *
+
+* npm run tsc-watch *

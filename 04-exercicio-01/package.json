@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "name": "04-exercicio-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tsc-watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
